@@ -1,0 +1,1 @@
+# node-sm-platform
