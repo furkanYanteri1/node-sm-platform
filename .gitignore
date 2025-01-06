@@ -1,3 +1,4 @@
 .env
 fileContents.txt
 generateFileContent.js
+node_modules
