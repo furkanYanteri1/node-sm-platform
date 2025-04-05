@@ -15,5 +15,5 @@ app.use(express.json());
 app.use('/api/auth', authRoutes);
 
 // Server
-const PORT = process.env.PORT || 5001;
-app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+const PORT = process.env.PORT || 5001; // Railway will override this
+app.listen(PORT, '0.0.0.0', () => console.log(`Server running on port ${PORT}`)); // '0.0.0.0' listens on all network interfaces
